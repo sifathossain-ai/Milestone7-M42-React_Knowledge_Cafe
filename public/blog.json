@@ -5,8 +5,9 @@
     "title": "Unlocking the Future of Tech",
     "author": "Liam Carter",
     "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
-    "posted_date": "2025-07-15",
-    "reading_date": 20250801,
+    "posted_date": "Jul 15 (18 days ago)",
+    "reading_date": "05 min read",
+    "bookmark": "🔖",
     "hashtags": ["#Technology", "#Innovation", "#AI"]
   },
   {
@@ -15,8 +16,9 @@
     "title": "The Art of Minimal Living",
     "author": "Sophia Bennett",
     "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
-    "posted_date": "2025-06-10",
-    "reading_date": 20250720,
+    "posted_date": "Jun 10 (53 days ago)",
+    "reading_date": "05 min read",
+    "bookmark": "🔖",
     "hashtags": ["#Lifestyle", "#Minimalism", "#SelfGrowth"]
   },
   {
@@ -25,8 +27,9 @@
     "title": "Into the Green: A Nature Memoir",
     "author": "Noah Kim",
     "author_img": "https://randomuser.me/api/portraits/men/12.jpg",
-    "posted_date": "2025-05-02",
-    "reading_date": 20250515,
+    "posted_date": "May 2 (92 days ago)",
+    "reading_date": "05 min read",
+    "bookmark": "🔖",
     "hashtags": ["#Nature", "#Memoir", "#Travel"]
   },
   {
@@ -35,8 +38,9 @@
     "title": "Designing for Tomorrow",
     "author": "Aria Patel",
     "author_img": "https://randomuser.me/api/portraits/women/55.jpg",
-    "posted_date": "2025-07-01",
-    "reading_date": 20250718,
+    "posted_date": "Jul 1 (32 days ago)",
+    "reading_date": "05 min read",
+    "bookmark": "🔖",
     "hashtags": ["#Design", "#UXUI", "#Creativity"]
   },
   {
@@ -45,8 +49,9 @@
     "title": "Breaking the Binary: Code & Culture",
     "author": "Ethan Zhang",
     "author_img": "https://randomuser.me/api/portraits/men/85.jpg",
-    "posted_date": "2025-06-25",
-    "reading_date": 20250705,
+    "posted_date": "Jun 25 (38 days ago)",
+    "reading_date": "05 min read",
+    "bookmark": "🔖",
     "hashtags": ["#Coding", "#Culture", "#Diversity"]
   }
 ]
