@@ -1,7 +1,7 @@
 import { LuBookmark } from "react-icons/lu";
 const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
     // console.log(blog);
-    const { title, cover, author_img, author, posted_date, reading_time, hashtags} = blog;
+    const {id, title, cover, author_img, author, posted_date, reading_time, hashtags} = blog;
     return (
         <div className="">
             <div>
@@ -32,7 +32,7 @@ const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
                     </small>
                 </div>
 
-                <button onClick={() => handleReadingTime(reading_time)} className="text-purple-800 underline font-bold"><small>Mark as Read</small></button>
+                <button onClick={() => handleReadingTime(id, reading_time)} className="text-purple-800 underline font-bold"><small>Mark as Read</small></button>
                 <hr className="my-6" />
             </div>
         </div>

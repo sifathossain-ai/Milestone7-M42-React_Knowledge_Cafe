@@ -11,7 +11,7 @@ const Bookmarks = ({bookmarks, readingTime}) => {
             <div className="bg-gray-200 rounded-lg pt-6 pb-2 px-6">
                 <h3 className="text-2xl font-bold pb-6">Bookmarked Blogs: {bookmarks.length}</h3>
                 {
-                    bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
+                    bookmarks.map((bookmark, idx) => <Bookmark key={idx} bookmark={bookmark}></Bookmark>)
                 }
             </div>
         </div>
