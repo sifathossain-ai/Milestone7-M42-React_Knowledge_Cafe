@@ -2,56 +2,101 @@
   {
     "id": "1",
     "cover": "https://picsum.photos/seed/book1/400/250",
-    "title": "Unlocking the Future of Tech",
+    "title": "Exploring the Boundaries of Modern Artificial Intelligence Research",
     "author": "Liam Carter",
     "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
     "posted_date": "Jul 15 (18 days ago)",
     "reading_date": "05 min read",
-    "bookmark": "🔖",
     "hashtags": ["#Technology", "#Innovation", "#AI"]
   },
   {
     "id": "2",
     "cover": "https://picsum.photos/seed/book2/400/250",
-    "title": "The Art of Minimal Living",
+    "title": "How Minimalist Living Transforms Your Daily Life and Mindset",
     "author": "Sophia Bennett",
     "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
     "posted_date": "Jun 10 (53 days ago)",
-    "reading_date": "05 min read",
-    "bookmark": "🔖",
+    "reading_date": "06 min read",
     "hashtags": ["#Lifestyle", "#Minimalism", "#SelfGrowth"]
   },
   {
     "id": "3",
     "cover": "https://picsum.photos/seed/book3/400/250",
-    "title": "Into the Green: A Nature Memoir",
+    "title": "A Personal Journey Into the Heart of Untouched Nature",
     "author": "Noah Kim",
     "author_img": "https://randomuser.me/api/portraits/men/12.jpg",
     "posted_date": "May 2 (92 days ago)",
-    "reading_date": "05 min read",
-    "bookmark": "🔖",
+    "reading_date": "04 min read",
     "hashtags": ["#Nature", "#Memoir", "#Travel"]
   },
   {
     "id": "4",
     "cover": "https://picsum.photos/seed/book4/400/250",
-    "title": "Designing for Tomorrow",
+    "title": "Design Principles That Will Shape the Future of Digital Interfaces",
     "author": "Aria Patel",
     "author_img": "https://randomuser.me/api/portraits/women/55.jpg",
     "posted_date": "Jul 1 (32 days ago)",
-    "reading_date": "05 min read",
-    "bookmark": "🔖",
+    "reading_date": "07 min read",
     "hashtags": ["#Design", "#UXUI", "#Creativity"]
   },
   {
     "id": "5",
     "cover": "https://picsum.photos/seed/book5/400/250",
-    "title": "Breaking the Binary: Code & Culture",
+    "title": "Understanding Culture Through the Lens of Programming and Code",
     "author": "Ethan Zhang",
     "author_img": "https://randomuser.me/api/portraits/men/85.jpg",
     "posted_date": "Jun 25 (38 days ago)",
-    "reading_date": "05 min read",
-    "bookmark": "🔖",
+    "reading_date": "03 min read",
     "hashtags": ["#Coding", "#Culture", "#Diversity"]
+  },
+  {
+    "id": "6",
+    "cover": "https://picsum.photos/seed/book6/400/250",
+    "title": "The Unexpected Power of Curiosity in Scientific Discovery",
+    "author": "Isla Thompson",
+    "author_img": "https://randomuser.me/api/portraits/women/22.jpg",
+    "posted_date": "Jul 20 (13 days ago)",
+    "reading_date": "06 min read",
+    "hashtags": ["#Science", "#Curiosity", "#Learning"]
+  },
+  {
+    "id": "7",
+    "cover": "https://picsum.photos/seed/book7/400/250",
+    "title": "Why Digital Privacy Will Matter More Than Ever in the Future",
+    "author": "Mason Rivera",
+    "author_img": "https://randomuser.me/api/portraits/men/41.jpg",
+    "posted_date": "Jul 5 (28 days ago)",
+    "reading_date": "08 min read",
+    "hashtags": ["#Privacy", "#Security", "#DigitalRights"]
+  },
+  {
+    "id": "8",
+    "cover": "https://picsum.photos/seed/book8/400/250",
+    "title": "Building Resilience in a World of Constant Technological Change",
+    "author": "Chloe Martin",
+    "author_img": "https://randomuser.me/api/portraits/women/36.jpg",
+    "posted_date": "Jun 30 (33 days ago)",
+    "reading_date": "04 min read",
+    "hashtags": ["#Resilience", "#TechLife", "#Wellbeing"]
+  },
+  {
+    "id": "9",
+    "cover": "https://picsum.photos/seed/book91/400/250",
+    "title": "Learning to Lead with Empathy in a Fast-Paced Tech Industry",
+    "author": "Elijah Brooks",
+    "author_img": "https://randomuser.me/api/portraits/men/29.jpg",
+    "posted_date": "Jul 10 (23 days ago)",
+    "reading_date": "07 min read",
+    "hashtags": ["#Leadership", "#Empathy", "#Workplace"]
+  },
+  {
+    "id": "10",
+    "cover": "https://picsum.photos/seed/book99/400/250",
+    "title": "How the Next Generation of Engineers Will Change the World",
+    "author": "Zara Nguyen",
+    "author_img": "https://randomuser.me/api/portraits/women/66.jpg",
+    "posted_date": "Jun 15 (48 days ago)",
+    "reading_date": "09 min read",
+    "hashtags": ["#Engineering", "#Innovation", "#Future"]
   }
 ]

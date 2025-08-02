@@ -1,9 +1,9 @@
 import { LuBookmark } from "react-icons/lu";
-const Blog = ({ blog }) => {
-    console.log(blog);
+const Blog = ({ blog, handleBookmarks }) => {
+    // console.log(blog);
     const { title, cover, author_img, author, posted_date, reading_date, hashtags} = blog;
     return (
-        <div className="py-4 pr-2">
+        <div className="">
             <div>
                 <img className="rounded-lg w-full" src={cover} alt="" />
                 <div className="flex justify-between items-center">
@@ -15,8 +15,11 @@ const Blog = ({ blog }) => {
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
+
                         <small className="text-gray-600">{reading_date}</small>
-                        <button className="text-xl text-gray-600"><LuBookmark></LuBookmark></button>
+
+                        <button onClick={() => handleBookmarks(blog)} className="text-xl text-gray-600"><LuBookmark></LuBookmark></button>
+
                     </div>
 
                 </div>
