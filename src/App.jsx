@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='md:flex justify-between'>
+      <div className='md:flex justify-between mx-4 py-5'>
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
