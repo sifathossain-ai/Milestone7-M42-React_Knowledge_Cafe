@@ -7,23 +7,21 @@ const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
             <div>
                 <img className="rounded-lg w-full" src={cover} alt="" />
                 <div className="flex justify-between items-center">
-                    <div className="flex gap-4 py-8">
-                        <img className="rounded-full w-14 h-14 object-cover" src={author_img} alt="" />
+                    <div className="flex gap-4 py-8 items-center">
+                        <img className="rounded-full w-10 h-10 md:w-14 md:h-14 object-cover" src={author_img} alt="" />
                         <div>
-                            <h3 className="text-2xl font-bold">{author}</h3>
-                            <p className="text-sm text-gray-600">{posted_date}</p>
+                            <h3 className="text-xl md:text-2xl font-bold">{author}</h3>
+                            <p className="text-[12px] md:text-sm text-gray-600">{posted_date}</p>
                         </div>
                     </div>
+
                     <div className="flex items-center gap-2">
-
                         <small className="text-gray-600"> 0{reading_time} min read</small>
-
                         <button onClick={() => handleBookmarks(blog)} className="text-xl text-gray-600"><LuBookmark></LuBookmark></button>
-
                     </div>
 
                 </div>
-                <h2 className="text-3xl font-bold">{title} </h2>
+                <h2 className="text-2xl md:text-3xl font-bold">{title} </h2>
                 <div className="my-3">
                     <small className="text-gray-600">
                         {
