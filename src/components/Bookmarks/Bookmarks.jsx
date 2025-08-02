@@ -1,11 +1,14 @@
 import React from "react";
+import Bookmark from "../Bookmark/Bookmark";
 
 const Bookmarks = ({bookmarks}) => {
     return (
         <div className="md:w-1/3">
-            <div className="bg-gray-300 rounded-lg">
-                <h3 className="text-2xl font-bold p-7">Bookmarked Blogs: {bookmarks.length}</h3>
-
+            <div className="bg-gray-300 rounded-lg pt-6 pb-2 px-6">
+                <h3 className="text-2xl font-bold pb-6">Bookmarked Blogs: {bookmarks.length}</h3>
+                {
+                    bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark> )
+                }
             </div>
         </div>
     );

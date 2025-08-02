@@ -31,8 +31,8 @@ const Blog = ({ blog, handleBookmarks }) => {
                         }
                     </small>
                 </div>
+                <hr className="my-6" />
             </div>
-            <hr />
         </div>
     );
 };

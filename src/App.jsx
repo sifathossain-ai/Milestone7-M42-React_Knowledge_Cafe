@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='max-w-7xl mx-auto p-2'>
       <Header></Header>
       <div className='md:flex justify-between py-6 gap-4'>
         <Blogs handleBookmarks={handleBookmarks}></Blogs>
