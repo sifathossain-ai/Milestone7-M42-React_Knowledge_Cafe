@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "cover": "https://picsum.photos/seed/book1/400/250",
+    "title": "Unlocking the Future of Tech",
+    "author": "Liam Carter",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posted_date": "2025-07-15",
+    "reading_date": 20250801,
+    "hashtags": ["#Technology", "#Innovation", "#AI"]
+  },
+  {
+    "id": "2",
+    "cover": "https://picsum.photos/seed/book2/400/250",
+    "title": "The Art of Minimal Living",
+    "author": "Sophia Bennett",
+    "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "posted_date": "2025-06-10",
+    "reading_date": 20250720,
+    "hashtags": ["#Lifestyle", "#Minimalism", "#SelfGrowth"]
+  },
+  {
+    "id": "3",
+    "cover": "https://picsum.photos/seed/book3/400/250",
+    "title": "Into the Green: A Nature Memoir",
+    "author": "Noah Kim",
+    "author_img": "https://randomuser.me/api/portraits/men/12.jpg",
+    "posted_date": "2025-05-02",
+    "reading_date": 20250515,
+    "hashtags": ["#Nature", "#Memoir", "#Travel"]
+  },
+  {
+    "id": "4",
+    "cover": "https://picsum.photos/seed/book4/400/250",
+    "title": "Designing for Tomorrow",
+    "author": "Aria Patel",
+    "author_img": "https://randomuser.me/api/portraits/women/55.jpg",
+    "posted_date": "2025-07-01",
+    "reading_date": 20250718,
+    "hashtags": ["#Design", "#UXUI", "#Creativity"]
+  },
+  {
+    "id": "5",
+    "cover": "https://picsum.photos/seed/book5/400/250",
+    "title": "Breaking the Binary: Code & Culture",
+    "author": "Ethan Zhang",
+    "author_img": "https://randomuser.me/api/portraits/men/85.jpg",
+    "posted_date": "2025-06-25",
+    "reading_date": 20250705,
+    "hashtags": ["#Coding", "#Culture", "#Diversity"]
+  }
+]
