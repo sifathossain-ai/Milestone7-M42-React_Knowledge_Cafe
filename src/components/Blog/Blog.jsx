@@ -1,7 +1,7 @@
 import { LuBookmark } from "react-icons/lu";
-const Blog = ({ blog, handleBookmarks }) => {
+const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
     // console.log(blog);
-    const { title, cover, author_img, author, posted_date, reading_date, hashtags} = blog;
+    const { title, cover, author_img, author, posted_date, reading_time, hashtags} = blog;
     return (
         <div className="">
             <div>
@@ -16,7 +16,7 @@ const Blog = ({ blog, handleBookmarks }) => {
                     </div>
                     <div className="flex items-center gap-2">
 
-                        <small className="text-gray-600">{reading_date}</small>
+                        <small className="text-gray-600"> 0{reading_time} min read</small>
 
                         <button onClick={() => handleBookmarks(blog)} className="text-xl text-gray-600"><LuBookmark></LuBookmark></button>
 
@@ -31,6 +31,8 @@ const Blog = ({ blog, handleBookmarks }) => {
                         }
                     </small>
                 </div>
+
+                <button onClick={() => handleReadingTime(reading_time)} className="text-purple-800 underline font-bold"><small>Mark as Read</small></button>
                 <hr className="my-6" />
             </div>
         </div>
